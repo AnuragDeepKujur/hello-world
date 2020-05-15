@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>HTML</title>
+    	<body>
+    		<p><h2><em>What is HTML?</em></h2></p>
+<ul>    		
+<p><li><strong>HTML</strong> is the standard markup language for creating Web pages.</li><br>
+<li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">HTML</a> stands for Hyper Text Markup Language</li><br>
+<li>HTML describes the structure of a Web page</li><br>
+<li>HTML consists of a series of elements</li><br>
+<li>HTML elements tell the browser how to display the content</li><br>
+<li>HTML elements are represented by tags</li><br>
+<li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li><br>
+<li>Browsers do not display the HTML tags, but use them to render the content of the page</li></p>
+</ul>
+<br>
+<hr>
+<br>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Roll no</th>
+			<th>Age</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Anurag Kujur</td>
+			<td>701</td>	
+			<td>22</td>
+		</tr>
+		<tr>
+			<td>Mohit Vishal</td>
+			<td>707</td>	
+			<td>21</td>
+		</tr>
+		<tr>
+			<td>Niraj Minj</td>
+			<td>738</td>	
+			<td>23</td>
+		</tr>
+	</tbody>
+
+</table>
+
+<br>
+<hr>  
+<br>
+<!--Form-->
+<form action="process.php" method="POST">
+	<div>
+		<label>First Name</label>
+	<input type="text" name="firstName" placeholder="Enter First Name">
+    </div>
+    <br>
+	<div>
+		<label>LastName</label>
+	    <input type="text" name="LastName">
+    </div>
+    <br>
+	<div>
+		<label>Email</label>
+	    <input type="email" name="email">
+    </div>
+    <br>
+	<div>
+		<label>Message</label>
+	    <textarea name ="message"></textarea>>
+    </div>
+    <br>
+	<div>
+		<label>Sex</label>
+		<select name="sex">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+
+    </div>
+	<br>
+	<div>
+	    <label>Age</label>
+	    <input type="number" name="age" value="30">
+    </div>		   
+    <br>	
+	<div>
+		<label>Birthday</label>
+	    <input type="date" name="birthday">
+    </div>
+    <br>
+    <input type="submit" name="submit" value="submit">
+    <br>
+    <br>
+    <br>
+
+
+    <button><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">HTML</a></button>
+
+    <br>
+    <img src="sample.jpg.jpg" height="500" width="850" >
+<br>
+    <p><h5><abbr title="Laughing Out Loud">LOL</abbr></h5></p>
+
+ 
+ <p>Copyright &copy;2020,Fuck Off</p>
+
+
+
+
+
+</body>
+    </head>
+</html>
